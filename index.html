@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="app">
+        <h1>Weather App</h1>
+        <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Enter city name" onkeydown="if(event.key === 'Enter') getWeather()">
+        <button onclick="getWeather()">Get Weather</button>
+        </div>
+        <div id="result"></div>
+        <div id="modal-overlay" onclick="closeModal()">
+            <div id="modal" onclick="event.stopPropagation()">
+                <button class="close-btn" onclick="closeModal()">✕</button>
+                <h2 id="modal-title">Travel Recommendation</h2>
+                <div id="modal-content">
+                <p>Loading...</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
