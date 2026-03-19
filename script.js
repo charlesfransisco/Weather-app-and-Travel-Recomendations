@@ -1,5 +1,3 @@
-const API_KEY = "YOUR_OPENWEATHERMAP_KEY";
-
 async function getWeather() {
     const city = document.getElementById("cityInput").value.trim();
 
@@ -9,7 +7,7 @@ async function getWeather() {
     }
     
     // buat url request ke api
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${API_KEY}&units=metric`;
+    const url = `/api/weather?city=${encodeURIComponent(city)}`;
     
     document.getElementById("result").innerHTML = "<p>Loading...</p>";
 
