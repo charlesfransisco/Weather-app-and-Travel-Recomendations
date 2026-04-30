@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Weather App Banner](https://images.unsplash.com/photo-1504608524841-42584120d693?w=900&q=80)
+![Weather App Banner](./screenshots/banner.png)
 
 **Discover the perfect destination — powered by real-time weather and AI.**
 
@@ -45,13 +45,13 @@ Simply type a city name, see the current weather, and then let the AI recommend 
 <div align="center">
 
 ### Search & Weather View
-![Search UI](https://images.unsplash.com/photo-1601134467661-3d775b999c0b?w=700&q=80)
+![Search UI](./screenshots/weather-view.png)
 *Type any city name to instantly fetch live weather conditions.*
 
 ---
 
 ### AI Recommendations Modal
-![AI Modal](https://images.unsplash.com/photo-1488085061387-422e29b40080?w=700&q=80)
+![AI Modal](./screenshots/ai-modal.png)
 *Three AI-curated travel spots, selected to match the current weather perfectly.*
 
 </div>
