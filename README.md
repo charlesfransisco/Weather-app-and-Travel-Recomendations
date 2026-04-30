@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Weather App Banner](./screenshots/banner.png)
+
 
 **Discover the perfect destination — powered by real-time weather and AI.**
 
