@@ -1,0 +1,28 @@
+# Environment variables and API keys
+
+.env
+.env.*
+*.key
+*.pem
+credentials*.json
+secrets*.json
+
+# Dependencies
+
+node_modules/
+
+# Build and deployment output
+
+.vercel/
+dist/
+build/
+
+# Logs
+
+*.log
+npm-debug.log*
+
+# Local system files
+
+.DS_Store
+Thumbs.db
