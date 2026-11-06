@@ -44,15 +44,15 @@ Simply type a city name, see the current weather, and then let the AI recommend 
 
 <div align="center">
 
-### Search & Weather View
-![Search UI](./screenshots/weather-view.png)
-*Type any city name to instantly fetch live weather conditions.*
+### Weather View & AI Recommendations
+![App Preview](./screenshots/app-preview.png)
+*Right: enter a city (e.g. Tokyo) to see live temperature, conditions, humidity, and wind. Left: the "Travel Recommendation" modal shows three AI-curated places that fit the current weather.*
 
 ---
 
-### AI Recommendations Modal
-![AI Modal](./screenshots/ai-modal.png)
-*Three AI-curated travel spots, selected to match the current weather perfectly.*
+### App Flow Diagram
+![App Flow Diagram](./screenshots/app-flow-diagram.png)
+*How a request travels from the user through the frontend and Vercel serverless functions to OpenWeatherMap and Groq AI, including the error paths.*
 
 </div>
 
