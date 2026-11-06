@@ -256,7 +256,6 @@ This project would not be possible without these amazing free services:
 
 - [OpenWeatherMap](https://openweathermap.org) — For reliable, global weather data
 - [Groq](https://groq.com) — For fast, free access to the GPT-OSS 120B AI model
-- [Shields.io](https://shields.io) — For the badges in this README
 
 ---
 
