@@ -10,7 +10,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Node.js](https://img.shields.io/badge/Node.js-Backend-green.svg)](https://nodejs.org)
 [![OpenWeatherMap](https://img.shields.io/badge/API-OpenWeatherMap-orange.svg)](https://openweathermap.org)
-[![Groq AI](https://img.shields.io/badge/AI-Groq%20(Llama%203.3)-purple.svg)](https://groq.com)
+[![Groq AI](https://img.shields.io/badge/AI-Groq%20(GPT--OSS%20120B)-purple.svg)](https://groq.com)
 
 </div>
 
@@ -67,14 +67,14 @@ The app runs in three simple steps behind the scenes:
         ↓
 [ OpenWeatherMap API returns live weather data ]
         ↓
-[ Groq AI (Llama 3.3) reads the weather & suggests 3 travel destinations ]
+[ Groq AI (GPT-OSS 120B) reads the weather & suggests 3 travel destinations ]
         ↓
 [ Results displayed in a clean, modern popup ]
 ```
 
 1. **Weather Fetch** — Your city search is sent to the OpenWeatherMap API through a secure backend proxy. The app receives temperature, humidity, wind, and sky conditions.
 
-2. **AI Processing** — The weather details are packaged into a smart prompt and sent to Groq's Llama 3.3 AI model. The AI understands the context and generates three meaningful, weather-appropriate travel recommendations.
+2. **AI Processing** — The weather details are packaged into a smart prompt and sent to Groq's GPT-OSS 120B AI model. The AI understands the context and generates three meaningful, weather-appropriate travel recommendations.
 
 3. **Display** — Everything is shown to you in a clean, easy-to-read format — no page refreshes, no delays.
 
@@ -101,7 +101,7 @@ The app runs in three simple steps behind the scenes:
 | API | Purpose |
 |---|---|
 | **OpenWeatherMap** | Real-time global weather data |
-| **Groq (Llama 3.3-70B)** | AI-generated travel recommendations |
+| **Groq (GPT-OSS 120B)** | AI-generated travel recommendations |
 
 ---
 
@@ -216,7 +216,7 @@ This project is an excellent hands-on way to build and sharpen the following ski
 
 ### 🤖 AI Integration
 - Crafting effective prompts for large language models (LLMs)
-- Connecting a web app to an AI API (Groq / Llama 3.3)
+- Connecting a web app to an AI API (Groq / GPT-OSS 120B)
 - Displaying AI-generated content in a user-friendly format
 
 ### 🔗 API Integration
@@ -255,7 +255,7 @@ See the [LICENSE](LICENSE) file for full details.
 This project would not be possible without these amazing free services:
 
 - [OpenWeatherMap](https://openweathermap.org) — For reliable, global weather data
-- [Groq](https://groq.com) — For fast, free access to the Llama 3.3-70B AI model
+- [Groq](https://groq.com) — For fast, free access to the GPT-OSS 120B AI model
 - [Shields.io](https://shields.io) — For the badges in this README
 
 ---
